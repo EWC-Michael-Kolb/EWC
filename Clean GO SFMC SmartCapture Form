@@ -1,0 +1,107 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-wrapper camarker-inner">
+<form id="smartcapture-block-b07nk7ac6cf" class="smartcapture-content-wrapper fuelux" novalidate="novalidate">%%=v(@FormTitle)=%%<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><br>
+<style id="smartcapture-styles-b07nk7ac6cf">
+ #smartcapture-block-b07nk7ac6cf {
+  background-color:#FFFFFF;text-align:left;margin:0 auto;padding:10px;border:3px solid #000000;width:55%;max-width:800;
+ }
+
+ #smartcapture-block-b07nk7ac6cf .smartcapture-controls {
+  padding-bottom: 10px;
+ }
+
+ #smartcapture-block-b07nk7ac6cf .smartcapture-controls .sc-formfield-label,
+ #smartcapture-block-b07nk7ac6cf .smartcapture-controls .sc-formfield-label label,
+ #smartcapture-block-b07nk7ac6cf .smartcapture-controls .sc-formfield-input label {
+  color:#000000;font-family:Roboto, sans-serif;font-size:16px;
+ }
+
+ #smartcapture-block-b07nk7ac6cf input[type="radio"],
+ #smartcapture-block-b07nk7ac6cf input[type="checkbox"] {
+  margin: 0 0.4em 3px 0;
+  vertical-align: middle;
+ }
+
+ #smartcapture-block-b07nk7ac6cf input[type="text"],
+ #smartcapture-block-b07nk7ac6cf input[type="email"],
+ #smartcapture-block-b07nk7ac6cf input[type="number"] {
+  width:95%;
+ }
+
+ #smartcapture-block-b07nk7ac6cf .sc-button {
+  background-color:#009DDC;border-color:#009DDC;border-radius:3px;border-style:solid;-webkit-border-radius:3px;-moz-border-radius:3px;color:#FFFFFF;font-family:Roboto, sans-serif;font-size:16px;line-height:normal;padding:10px;
+ }
+
+ #smartcapture-block-b07nk7ac6cf .smartcapture-submit-button-wrapper {
+  padding-bottom:10px;text-align:center;
+ }
+
+ #smartcapture-block-b07nk7ac6cf .date-dropdown-select-boxes input {
+  display: none;
+ }
+
+ #smartcapture-block-b07nk7ac6cf .date-dropdown-select-boxes .select {
+  max-height: 28em;
+  max-width: 6em;
+  overflow: auto;
+ }
+</style>
+
+ <div data-type="slot" data-key="eje0uwfnzqg"></div>
+ <div class="smartcapture-submit-button-wrapper">
+  <button type="submit" class="sc-button">Submit</button>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<script id="smartcapture-script-b07nk7ac6cf">
+ var scFormLoaded = function () {
+  window.ScForm.init({"gearID":"b07nk7ac6cf","smartCaptureFormID":1264,"sourceKey":"E210CE59-2111-4E76-A848-D5BB7CC6357E","source":"dataExtension","triggeredSend":"","confirmationMessage":"Thank you for your submission.","buttonText":"Submit","formStyling":{"background-color":"#FFFFFF","text-align":"left","margin":"0 auto","padding":"10px","border":"3px solid #000000","width":"55%","max-width":"800"},"fieldStyling":{"width":"95%"},"buttonStyling":{"background-color":"#009DDC","border-color":"#009DDC","border-radius":"3px","border-style":"solid","-webkit-border-radius":"3px","-moz-border-radius":"3px","color":"#FFFFFF","font-family":"Roboto, sans-serif","font-size":"16px","line-height":"normal","padding":"10px"},"onSubmitGotoUrlType":2});
+ };
+ var scAppDomain = 'cloudpages.mc-content.com';
+ var scAppBasePath = '/CloudPages';
+ (function () {
+  var appDomain = '<ctrl:eval>Platform.Variable.GetValue("@appDomain")</ctrl:eval>';
+  if (appDomain.indexOf('qa') !== -1) {
+   scAppDomain = 'cloudpages-qa.mc-content.com';
+   scAppBasePath = '/CloudPages_V1';
+  }
+ }());
+ window.appDomain = window.appDomain || scAppDomain;
+ window.contentDetail = window.contentDetail || <ctrl:eval>Platform.Variable.GetValue('@contentDetail')||{}</ctrl:eval>;
+ if (!window.ScForm || !window.ScForm.init) {
+  var head = document.getElementsByTagName('head')[0];
+  var id = 'smartcapture-formjs-script';
+  var script = document.getElementById(id);
+  var domain = window.appDomain;
+  var el;
+  if (!script) {
+   if (domain) {
+    domain = '//' + domain;
+   }
+   el = document.createElement('script');
+   el.async = true;
+   el.id = id;
+   el.src = domain + scAppBasePath + '/lib/smartcapture-formjs.js';
+   el.onload = scFormLoaded;
+   head.appendChild(el);
+  } else {
+   if (script.addEventListener) {
+    script.addEventListener('load', scFormLoaded);
+   } else if (script.attachEvent) {
+    script.attachEvent('onload', scFormLoaded);
+   }
+  }
+ } else {
+  scFormLoaded();
+ }
+</script>
+<input name="AppPortalUrl" type="hidden" value="%%=v(@AppPortalUrl)=%%"><input name="CampaignName" type="hidden" value="%%=v(@CampaignTitle)=%%"><input name="StoreLocationAddress" type="hidden" value="%%=v(@StoreLocationAddress)=%%"><input name="StoreLocationCity" type="hidden" value="%%=v(@StoreLocationCity)=%%"><input name="StoreLocationState" type="hidden" value="%%=v(@StoreLocationState)=%%"><input name="StoreLocationZip" type="hidden" value="%%=v(@StoreLocationZip)=%%"><input name="ReviewUrl" type="hidden" value="%%=v(@ReviewUrl)=%%"><input name="AffiliateName" type="hidden" value="%%=v(@Affiliate)=%%"><input name="GOPresaleEndDate" type="hidden" value="%%=v(@GOPresaleEndDate)=%%"><input name="GOSoftOpenEndDate" type="hidden" value="%%=v(@GOSoftOpenEndDate)=%%"><input name="GOEndDate" type="hidden" value="%%=v(@GOEndDate)=%%"><input name="GOPortalUrl" type="hidden" value="%%=v(@GOPortalUrl)=%%">
+<input name="Url" type="hidden" value="%%=v(@Url)=%%"><input name="CampaignType" type="hidden" value="%%=v(@CampaignType)=%%">
+  </td></tr></table></form></td></tr></table>
